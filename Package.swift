@@ -15,7 +15,8 @@ let package = Package(
             resources: [
                 .process("../Resources"),
                 .copy("Metal/CineLogCurve.metal"),
-                .copy("Metal/CDL.metal")
+                .copy("Metal/CDL.metal"),
+                .copy("Metal/LUT3D.metal")
             ]
         ),
         .testTarget(
