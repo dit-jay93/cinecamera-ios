@@ -14,7 +14,8 @@ let package = Package(
             path: "CineCamera/Sources",
             resources: [
                 .process("../Resources"),
-                .copy("Metal/CineLogCurve.metal")
+                .copy("Metal/CineLogCurve.metal"),
+                .copy("Metal/CDL.metal")
             ]
         ),
         .testTarget(
