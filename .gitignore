@@ -1,0 +1,29 @@
+# Xcode
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.moved-aside
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Secrets
+.env
+*.p8
+*.p12
+*.cer
+*.mobileprovision
+
+# Logs
+*.log
