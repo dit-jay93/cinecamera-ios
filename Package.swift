@@ -17,7 +17,8 @@ let package = Package(
                 .copy("Metal/CineLogCurve.metal"),
                 .copy("Metal/CDL.metal"),
                 .copy("Metal/LUT3D.metal"),
-                .copy("Metal/FilmGrain.metal")
+                .copy("Metal/FilmGrain.metal"),
+                .copy("Metal/CinemaFilter.metal")
             ]
         ),
         .testTarget(
