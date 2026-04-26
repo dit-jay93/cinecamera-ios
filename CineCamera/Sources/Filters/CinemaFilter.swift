@@ -42,7 +42,7 @@ public struct SpatialEffect: Codable, Equatable {
 
 /// Cinema filter — combines a per-pixel 3x3 color matrix (with luminance
 /// passthrough) and an optional spatial effect.
-public struct CinemaFilter: Identifiable, Equatable {
+public struct CinemaFilter: Identifiable, Equatable, Codable {
     public let id: String
     public let name: String
     public let manufacturer: String
